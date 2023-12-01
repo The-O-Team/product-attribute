@@ -24,6 +24,7 @@
                 <group
                     string="Dimensions"
                     name="dimensions"
+                    colspan="2"
                     invisible="product_variant_count &gt; 1"
                 >
                     <field name="dimensional_uom_id" options="{'no_create': True}" />
